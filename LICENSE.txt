@@ -1,0 +1,19 @@
+CompoSe Proprietary Software License
+Copyright (c) 2026 falloutxy. All rights reserved.
+
+Permission is granted to download, install, and use an unmodified copy of
+CompoSe free of charge for personal or commercial work.
+
+You may not modify, reverse engineer, decompile, disassemble, redistribute,
+repackage, sublicense, sell, rent, or make derivative works from CompoSe except
+where applicable law expressly permits such activity despite this restriction.
+
+The software is provided "as is", without warranty of any kind, express or
+implied, including warranties of merchantability, fitness for a particular
+purpose, and noninfringement. To the maximum extent permitted by law, the
+copyright holder is not liable for any claim, damages, or other liability
+arising from the software or its use.
+
+本软件允许个人或商业用途免费下载安装和使用未经修改的副本。未经版权所有者书面许可，
+不得修改、反向工程、反编译、反汇编、重新分发、重新打包、再许可、出售、出租或制作
+衍生作品，但适用法律明确允许的情形除外。本软件按现状提供，不附带任何明示或默示保证。
