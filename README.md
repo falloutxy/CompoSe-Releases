@@ -12,7 +12,7 @@ CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可�
 ## 下载与安装
 
 - 系统要求：Apple Silicon Mac，macOS 14 或更高版本。
-- 正式开放后，从 [Latest Release](https://github.com/falloutxy/CompoSe-Downloads/releases/latest)
+- 正式开放后，从 [Latest Release](https://github.com/falloutxy/CompoSe-Releases/releases/latest)
   下载 `CompoSe-0.9.0-Apple-Silicon.dmg`。
 - 打开 DMG，把 CompoSe 拖到 Applications，然后从“应用程序”启动。
 - 每个版本同时提供 SHA-256 文件，可用以下命令校验：
@@ -30,7 +30,7 @@ CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可�
 - 固定分辨率或跟随画布输出
 - 项目保存与本地 Git 版本记录
 
-问题和建议请提交到 [Issues](https://github.com/falloutxy/CompoSe-Downloads/issues)。
+问题和建议请提交到 [Issues](https://github.com/falloutxy/CompoSe-Releases/issues)。
 安全问题请勿公开提交；安全联系渠道会在仓库公开前补充。
 
 CompoSe 只在本机处理用户选择的媒体文件，不包含遥测或媒体上传服务。只有用户主动
@@ -54,7 +54,7 @@ or continuous video across multiple groups.
 
 - Requirements: Apple Silicon Mac with macOS 14 or later.
 - Once public, download `CompoSe-0.9.0-Apple-Silicon.dmg` from the
-  [latest release](https://github.com/falloutxy/CompoSe-Downloads/releases/latest).
+  [latest release](https://github.com/falloutxy/CompoSe-Releases/releases/latest).
 - Open the DMG, drag CompoSe to Applications, and launch it from Applications.
 - Verify the accompanying checksum with:
 
@@ -71,7 +71,7 @@ or continuous video across multiple groups.
 - Fixed output resolution or follow-canvas sizing
 - Project saving and optional local Git history
 
-Please use [Issues](https://github.com/falloutxy/CompoSe-Downloads/issues) for
+Please use [Issues](https://github.com/falloutxy/CompoSe-Releases/issues) for
 bugs and feature requests. Do not post security reports publicly; a private
 security contact will be added before this repository becomes public.
 
