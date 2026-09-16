@@ -14,7 +14,18 @@
 ## 安装
 
 下载 `CompoSe-0.9.0-Apple-Silicon.dmg`，打开后把 CompoSe 拖到 Applications。
-该安装包必须通过 Developer ID 签名和 Apple 公证后才会附加到本 Release。
+
+本版本使用临时代码签名，未经过 Apple Developer ID 验证和公证。首次启动时：
+
+1. 尝试打开 CompoSe 一次。
+2. 进入“系统设置 → 隐私与安全性”。
+3. 找到 CompoSe，点击“仍要打开”并确认。
+
+请同时下载 SHA-256 文件并校验安装包：
+
+```bash
+shasum -a 256 -c CompoSe-0.9.0-Apple-Silicon.dmg.sha256
+```
 
 ---
 
@@ -24,5 +35,14 @@ grouped playback, continuous all-group export, configurable output resolution,
 project saving, and optional local Git history.
 
 Download `CompoSe-0.9.0-Apple-Silicon.dmg`, open it, and drag CompoSe to
-Applications. The asset will only be attached after Developer ID signing and
-Apple notarization have passed.
+Applications.
+
+This build uses an ad-hoc code signature and has not been verified or notarized
+by Apple. On first launch, try to open CompoSe once, then go to System Settings
+→ Privacy & Security and click Open Anyway for CompoSe.
+
+Download the accompanying checksum file and verify it with:
+
+```bash
+shasum -a 256 -c CompoSe-0.9.0-Apple-Silicon.dmg.sha256
+```
