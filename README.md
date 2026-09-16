@@ -7,8 +7,8 @@
 CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可以把多张图片、视频和
 文字组合到同一画布，按组预览，并导出静态图片或连续视频。
 
-> 当前下载仓库仍在私密准备阶段。**v0.9.0 Public Beta** 是未经过 Apple
-> Developer ID 验证和公证的测试版本。
+> **v0.9.0 Public Beta** 现已开放下载。这是未经过 Apple Developer ID
+> 验证和公证的测试版本。
 
 ## 下载与安装
 
@@ -35,7 +35,7 @@ CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可�
 - 项目保存与本地 Git 版本记录
 
 问题和建议请提交到 [Issues](https://github.com/falloutxy/CompoSe-Releases/issues)。
-安全问题请勿公开提交；安全联系渠道会在仓库公开前补充。
+安全问题请勿创建公开 Issue，请按照[安全政策](SECURITY.md)私下报告。
 
 CompoSe 只在本机处理用户选择的媒体文件，不包含遥测或媒体上传服务。只有用户主动
 使用项目 Git 功能时，Git 才会访问该项目自行配置的远程仓库。
@@ -51,8 +51,8 @@ CompoSe is a lightweight macOS canvas editor for arranging images, videos, and
 text in one composition. It supports grouped playback and exports still images
 or continuous video across multiple groups.
 
-> This download repository is currently private. **v0.9.0 Public Beta** is a
-> test build without Apple Developer ID verification or notarization.
+> **v0.9.0 Public Beta** is now available. This test build does not have Apple
+> Developer ID verification or notarization.
 
 ### Download and install
 
@@ -81,8 +81,8 @@ or continuous video across multiple groups.
 - Project saving and optional local Git history
 
 Please use [Issues](https://github.com/falloutxy/CompoSe-Releases/issues) for
-bugs and feature requests. Do not post security reports publicly; a private
-security contact will be added before this repository becomes public.
+bugs and feature requests. Do not post security reports publicly; follow the
+[security policy](SECURITY.md) to report them privately.
 
 CompoSe processes selected media locally and contains no telemetry or media
 upload service. Git accesses a remote only when the user explicitly uses the
