@@ -7,14 +7,14 @@
 CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可以把多张图片、视频和
 文字组合到同一画布，按组预览，并导出静态图片或连续视频。
 
-> **v0.9.0 Public Beta** 现已开放下载。这是未经过 Apple Developer ID
+> **v0.10.0 Public Beta** 现已开放下载。这是未经过 Apple Developer ID
 > 验证和公证的测试版本。
 
 ## 下载与安装
 
 - 系统要求：Apple Silicon Mac，macOS 14 或更高版本。
-- 从 [v0.9.0 Public Beta](https://github.com/falloutxy/CompoSe-Releases/releases/tag/v0.9.0)
-  下载 `CompoSe-0.9.0-Apple-Silicon.dmg`。
+- 从 [v0.10.0 Public Beta](https://github.com/falloutxy/CompoSe-Releases/releases/tag/v0.10.0)
+  下载 `CompoSe-0.10.0-Apple-Silicon.dmg`。
 - 打开 DMG，把 CompoSe 拖到 Applications，然后从“应用程序”启动。
 - 首次启动时，macOS 会提示无法验证开发者。尝试打开一次后，进入“系统设置 →
   隐私与安全性”，找到 CompoSe 并点击“仍要打开”。确认后即可正常启动。
@@ -22,16 +22,19 @@ CompoSe 是一款面向 macOS 的轻量图片与视频画布编辑器。它可�
 - 每个版本同时提供 SHA-256 文件，可用以下命令校验：
 
   ```bash
-  shasum -a 256 -c CompoSe-0.9.0-Apple-Silicon.dmg.sha256
+  shasum -a 256 -c CompoSe-0.10.0-Apple-Silicon.dmg.sha256
   ```
 
 ## 主要功能
 
 - 图片、视频和文字在同一画布自由组合
-- 图片保持宽高比匹配视频显示宽度或高度
+- 多图层左右、上下、网格、重叠排列，以及层级和位置调整
+- 横向／竖向 Alpha 分屏遮罩、旋转与循环擦除／揭示动画
+- 文本字号、颜色、可调文本框及媒体图层链接
+- 自动画布、完整居中、鼠标滚轮缩放和中键平移
 - 同时播放与顺序播放模式
 - 当前组或全部视频组导出
-- 固定分辨率或跟随画布输出
+- 固定分辨率或跟随画布输出，预览与导出保持一致
 - 项目保存与本地 Git 版本记录
 
 问题和建议请提交到 [Issues](https://github.com/falloutxy/CompoSe-Releases/issues)。
@@ -51,14 +54,14 @@ CompoSe is a lightweight macOS canvas editor for arranging images, videos, and
 text in one composition. It supports grouped playback and exports still images
 or continuous video across multiple groups.
 
-> **v0.9.0 Public Beta** is now available. This test build does not have Apple
+> **v0.10.0 Public Beta** is now available. This test build does not have Apple
 > Developer ID verification or notarization.
 
 ### Download and install
 
 - Requirements: Apple Silicon Mac with macOS 14 or later.
-- Download `CompoSe-0.9.0-Apple-Silicon.dmg` from
-  [v0.9.0 Public Beta](https://github.com/falloutxy/CompoSe-Releases/releases/tag/v0.9.0).
+- Download `CompoSe-0.10.0-Apple-Silicon.dmg` from
+  [v0.10.0 Public Beta](https://github.com/falloutxy/CompoSe-Releases/releases/tag/v0.10.0).
 - Open the DMG, drag CompoSe to Applications, and launch it from Applications.
 - On first launch, macOS will report that the developer cannot be verified.
   After trying to open the app once, open System Settings → Privacy & Security,
@@ -68,16 +71,19 @@ or continuous video across multiple groups.
 - Verify the accompanying checksum with:
 
   ```bash
-  shasum -a 256 -c CompoSe-0.9.0-Apple-Silicon.dmg.sha256
+  shasum -a 256 -c CompoSe-0.10.0-Apple-Silicon.dmg.sha256
   ```
 
 ### Highlights
 
 - Arrange images, videos, and text on one canvas
-- Match image width or height to video while preserving aspect ratio
+- Arrange layers side by side, vertically, in a grid, or overlapped; reorder and reposition them
+- Use horizontal or vertical alpha split masks with rotation and looping wipe/reveal animation
+- Edit text size, color, resizable text boxes, and links to media layers
+- Use an automatic content canvas, fit-all view, pointer-anchored zoom, and middle-button pan
 - Simultaneous and sequential playback modes
 - Export the current group or all groups as one continuous video
-- Fixed output resolution or follow-canvas sizing
+- Fixed output resolution or follow-canvas sizing with preview/export consistency
 - Project saving and optional local Git history
 
 Please use [Issues](https://github.com/falloutxy/CompoSe-Releases/issues) for
